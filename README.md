@@ -2,6 +2,8 @@
 
 This repository points to systems genetics data from the Attie Lab at the University of Wisconsin-Madison.
 
+See also [Heureka data_map from `attie-data` skill](data_map.md).
+
 ## Data Storage Units
 
 Data reside in 3 major areas,
