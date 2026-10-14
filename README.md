@@ -83,22 +83,22 @@ This was provided by Google Gemini.
 
 ### Key Differences
 
-## 1. Performance and Use Case
+#### 1. Performance and Use Case
 
 - fst: This package is optimized for speed. It compiles directly into R and uses LZ4 or ZSTD compression to deliver lightning-fast read/write operations by utilizing multiple CPU cores. Benchmarks show that fst can be significantly faster than Parquet for processing massive R data frames locally. It also features true random access, allowing you to read specific row or column slices without loading the entire file into memory. [1, 2, 3, 4]
 - Apache Parquet: Built primarily for analytical querying and storage efficiency in distributed systems. While exceptionally fast compared to text formats like CSV, it generally yields slower read/write cycles than fst on a single local machine using R. [2, 5]
 
-### 2. Interoperability
+#### 2. Interoperability
 
 - fst: The format is essentially a silo. It is explicitly written for R data frames. Reading .fst files in Python or other tools requires spinning up an R interface, making it impractical for cross-language workflows. [1, 6]
 - Apache Parquet: The industry standard for big data. Parquet integrates natively with Python (pandas/PyArrow), Spark, AWS Athena, DuckDB, and almost every modern data stack. [5, 7, 8]
 
-### 3. File Size and Compression
+#### 3. File Size and Compression
 
 - fst: Prioritizes raw CPU decompression speed over minimizing storage footprint. As a result, its files can be significantly larger than Parquet. [3, 7]
 - Apache Parquet: Employs advanced dictionary encoding, bit-packing, and run-length encoding. It compresses the data heavily, saving substantial disk and network storage costs. [5, 7]
 
-### Summary Recommendation
+#### 4. Summary Recommendation
 
 - Choose fst if you are building an isolated R pipeline, local Shiny dashboard, or doing predictive modeling entirely in R, where you need to save and pull large data frames to/from your local SSD at maximum speed. [4, 9]
 - Choose Apache Parquet if your data needs to be accessed by Python, passed to data engineers, or stored long-term in cloud buckets like AWS S3 or Google Cloud Storage. [5, 7]
