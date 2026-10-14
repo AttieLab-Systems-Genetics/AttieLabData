@@ -81,7 +81,9 @@ This was provided by Google Gemini.
 
 ------------------------------
 
-### Key Differences## 1. Performance and Use Case
+### Key Differences
+
+## 1. Performance and Use Case
 
 - fst: This package is optimized for speed. It compiles directly into R and uses LZ4 or ZSTD compression to deliver lightning-fast read/write operations by utilizing multiple CPU cores. Benchmarks show that fst can be significantly faster than Parquet for processing massive R data frames locally. It also features true random access, allowing you to read specific row or column slices without loading the entire file into memory. [1, 2, 3, 4]
 - Apache Parquet: Built primarily for analytical querying and storage efficiency in distributed systems. While exceptionally fast compared to text formats like CSV, it generally yields slower read/write cycles than fst on a single local machine using R. [2, 5]
