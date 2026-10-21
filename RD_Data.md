@@ -37,7 +37,8 @@ Primary concern is `$RD/mkeller3/General`.
 - `mkeller3/General/DO500`: DO500 project
   - See [sysgenDO500](https://github.com/AttieLab-Systems-Genetics/sysgenDO500)
 - `mkeller3/General/DO-Discovery_HEUREKA_2026-09-29`: Discovery with Heureka project
-  - See `DO-Heureka` (not yet created)
+  - See [HeurekaDO](https://github.com/AttieLab-Systems-Genetics/HeurekaDO)
+  - See [00_manifest/file_registry.csv](https://github.com/AttieLab-Systems-Genetics/HeurekaDO/blob/main/HeurekaDO/00_manifest/file_registry.csv)
   - See [Heureka](https://github.com/AttieLab-Systems-Genetics/Heureka) for Yandell discovery process
 - `mkeller3/General/Projects2`: Mark Keller workflows
   - See [`mkeller3Projects2](https://github.com/AttieLab-Systems-Genetics/mkeller3Projects2)
