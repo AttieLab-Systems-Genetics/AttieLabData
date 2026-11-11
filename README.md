@@ -24,7 +24,7 @@ Additional analysis tools and repos can be found at
 <https://github.com/AttieLab-Systems-Genetics>.
 
 - [`AttieLabData`](https://github.com/AttieLab-Systems-Genetics/AttieLabData): this repository
-- [Heureka Labs](https://heurekalabs.co) Ecosystem building infrastructure
+- [Heureka Labs](https://heurekalabs.co) Biology Ecosystem AI Harness
   - [`HeurekaDO`](https://github.com/AttieLab-Systems-Genetics/HeurekaDO): HeurekaDO Discovery Platform & Data Architecture
   - [`Heureka`](https://github.com/AttieLab-Systems-Genetics/Heureka)
     - [`attie-data` skill](https://github.com/AttieLab-Systems-Genetics/Heureka/tree/main/Projects/Skill4AttieData)
