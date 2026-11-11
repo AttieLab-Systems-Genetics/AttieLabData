@@ -28,7 +28,7 @@ Additional analysis tools and repos can be found at
   - [`HeurekaDO`](https://github.com/AttieLab-Systems-Genetics/HeurekaDO): HeurekaDO Discovery Platform & Data Architecture
   - [`Heureka`](https://github.com/AttieLab-Systems-Genetics/Heureka)
     - [`attie-data` skill](https://github.com/AttieLab-Systems-Genetics/Heureka/tree/main/Projects/Skill4AttieData)
-    - [`data_map.md` from `attie-data` skill](data_map.md)
+    - [`data_map.md`](data_map.md)
 - [`sysgenDO1200`](https://github.com/AttieLab-Systems-Genetics/sysgenDO1200): Documents `RD` folder `mkeller3/General/main_directory`
 - [`mkeller3Projects2`](https://github.com/AttieLab-Systems-Genetics/mkeller3Projects2): Mark Keller Workflows in `mkeller3/General/Projects2`
 - [`sysgenAnalysis`](https://github.com/AttieLab-Systems-Genetics/sysgenAnalysis): Systems Genetic Analysis Tools
