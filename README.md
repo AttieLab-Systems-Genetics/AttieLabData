@@ -104,12 +104,12 @@ This was provided by Google Gemini.
 - Choose fst if you are building an isolated R pipeline, local Shiny dashboard, or doing predictive modeling entirely in R, where you need to save and pull large data frames to/from your local SSD at maximum speed. [4, 9]
 - Choose Apache Parquet if your data needs to be accessed by Python, passed to data engineers, or stored long-term in cloud buckets like AWS S3 or Google Cloud Storage. [5, 7]
 
-[1] [https://stackoverflow.com](https://stackoverflow.com/questions/71710435/does-the-r-arrow-package-have-anything-like-the-random-access-capability-of-the)
-[2] [https://issues.apache.org](https://issues.apache.org/jira/browse/ARROW-6230)
-[3] [https://www.r-bloggers.com](https://www.r-bloggers.com/2017/02/fst-fast-serialization-of-r-data-frames/)
-[4] [https://github.com](https://github.com/fstpackage/fst)
-[5] [https://www.youtube.com](https://www.youtube.com/watch?v=EJ_kqkQ7vh8&t=478)
-[6] [https://prof-thiagooliveira.netlify.app](https://prof-thiagooliveira.netlify.app/post/data-read-write-performance/)
-[7] [https://ursalabs.org](https://ursalabs.org/blog/2019-10-columnar-perf/)
-[8] [https://www.reddit.com](https://www.reddit.com/r/Python/comments/tver6p/i_made_a_video_comparing_different_data_storage/)
-[9] [https://prof-thiagooliveira.netlify.app](https://prof-thiagooliveira.netlify.app/post/data-read-write-performance/)
+[1] [https://stackoverflow.com](https://stackoverflow.com/questions/71710435/does-the-r-arrow-package-have-anything-like-the-random-access-capability-of-the)  
+[2] [https://issues.apache.org](https://issues.apache.org/jira/browse/ARROW-6230)  
+[3] [https://www.r-bloggers.com](https://www.r-bloggers.com/2017/02/fst-fast-serialization-of-r-data-frames/)  
+[4] [https://github.com](https://github.com/fstpackage/fst)  
+[5] [https://www.youtube.com](https://www.youtube.com/watch?v=EJ_kqkQ7vh8&t=478)  
+[6] [https://prof-thiagooliveira.netlify.app](https://prof-thiagooliveira.netlify.app/post/data-read-write-performance/)  
+[7] [https://ursalabs.org](https://ursalabs.org/blog/2019-10-columnar-perf/)  
+[8] [https://www.reddit.com](https://www.reddit.com/r/Python/comments/tver6p/i_made_a_video_comparing_different_data_storage/)  
+[9] [https://prof-thiagooliveira.netlify.app](https://prof-thiagooliveira.netlify.app/post/data-read-write-performance/)  
