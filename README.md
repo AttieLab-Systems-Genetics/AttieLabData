@@ -1,6 +1,14 @@
 # Attie Lab Data
 
-This repository points to systems genetics data from the Attie Lab at the University of Wisconsin-Madison.
+This repository provides an overview of and pointers to systems genetics data
+and analysis tools
+from the
+[Attie Lab](https://attielab.biochem.wisc.edu/)
+at the
+[University of Wisconsin–Madison](https://www.wisc.edu/).
+[AttieLabData](https://github.com/AttieLab-Systems-Genetics/AttieLabData)
+is a coordinating repo in the GitHub Organization
+[AttieLab-Systems-Genetics](https://github.com/AttieLab-Systems-Genetics).
 
 ## Data Storage Units
 
@@ -8,10 +16,15 @@ Data reside in 3 major areas,
 two partitions on
 [ResearchDrive (`RD`)](https://researchdrive.wisc.edu/)
 and one in an AWS
-[Research Object Storage (`S3`)](https://it.wisc.edu/services/research-object-storage-s3/).
+[Research Object Storage (`S3`) bucket](https://it.wisc.edu/services/research-object-storage-s3/).
 
 - [`adattie`  & `mkeller3` on `RD`](RD_Data.md)
 - [`adattie-bucket-01` on `S3`](S3_Data.md)
+
+`adattie` was the first "on-prem" storage system,
+followed by `mkeller3` when it filled up.
+Newer web projects are being developed with data hosted on
+`adattie-bucket-01`.
 
 ## GitHub Repos
 
